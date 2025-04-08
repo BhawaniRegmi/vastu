@@ -1,0 +1,35 @@
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dash.sahaj_flutter">
+
+    <!-- Camera permission for QR scanning -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+
+    <!-- Internet permission for authentication services -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- If authentication requires network state access -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Optionally, if the app needs to run in the background or use other features -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- Optionally, if your authentication requires background services -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+</manifest>
+
+
+<!-- <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dash.sahaj_flutter">
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+
+
+    <!-- Flutter needs it to communicate with the running application
+         to allow setting breakpoints, to provide hot reload, etc.
+    -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest> -->
